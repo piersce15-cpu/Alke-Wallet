@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Usuario</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="mb-3 mx-auto w-75 mt-2">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark w-100">
+    <a class="navbar-brand" href="menu.html">Alke Wallet</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a class="nav-link" href="menu.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="login.html">Cerrar Sesión</a></li>
+        </ul>
+    </div>
+    </nav>
+    </header>
+    
+    <!--Pantalla Menú principal-->
+    <div class="container mb-5">
+        <h1 class="font-weight-bold">Menú Principal</h1>
+        <div class="form-group mb-5">
+            <p for="balance">Saldo Disponible:</p>
+            <h2 id="saldo-actual" class="display-4">$100.000</h2>
+        </div>
+
+    <a href="deposit.html" class="btn btn-primary">Depositar</a>
+    <a href="sendmoney.html" class="btn btn-primary">Enviar Dinero</a>
+    <a href="transactions.html" class="btn btn-primary">Últimos Movimientos</a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+<!--Implementar una barra de navegacion responsive-->
+<!--Crear funciones para gestionar el saldo-->
